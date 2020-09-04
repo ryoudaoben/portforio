@@ -29,6 +29,7 @@
     position:fixed;
     z-index:100;
     background-color:white;
+    margin-top:-50px;
   }
 
   .fa-airbnb{
