@@ -1,0 +1,159 @@
+@media all and (min-width: 1140px) {
+  .fourteen-wrapper hr{
+    display:none;
+  }
+
+  .footer-icon{
+    display:none;
+  }
+
+  .top-wrapper-1{
+    display:none;
+  }
+
+  .top-wrapper-2{
+    display:none;
+  }
+}
+
+@media all and (max-width:1140px) {
+  .footer-text-2{
+    display:none;
+}
+
+.header{
+  display:none;
+}
+
+.top-wrapper{
+  display:none;
+}
+
+.top-wrapper-1{
+  height:250px;
+  background-image:url(450-20170320190427304406.jpg)
+}
+
+.top-wrapper-1 i{
+  color:white;
+  font-size:30px;
+}
+
+.top-wrapper-1 h1{
+  padding-top:30px;
+  font-weight:bold;
+  color:white;
+  padding-top:120px;
+  padding-left:20px;
+}
+
+.top-wrapper-2 p{
+  padding-top:10px;
+  padding-left:10px;
+  font-weight:bold;
+}
+
+.top-wrapper-2 input{
+  width:97%;
+  margin-left:5px;
+  margin-bottom:5px;
+  border-style:solid;
+  border-color:gainsboro;
+}
+
+.top-11 select::-ms-expand{
+    display:none;
+}
+
+.top-11 select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: 20px;
+  padding: 7px 30px 7px 10px;
+  font-size: 93%;
+  line-height: 1.1em;
+  border-radius: 5px;
+  border: 1px solid #c0c0c0;
+  background-image: url(arrow.png);
+  background-repeat: no-repeat;
+  background-size: 12px 10px;
+  background-position: right 10px center;
+}
+
+.top-12{
+  float:left;
+  width:55%;
+  margin-left:5px;
+}
+
+.top-13{
+  float:right;
+  width:40%;
+  margin-right:8px;
+}
+
+.top-wrapper-2 button{
+    border:none;
+    background-color:#FF385C;
+    color:white;
+    border-radius:5px;
+    width:95%;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:10px;
+}
+}
+
+@media all and (max-width:767px){
+  .four-text-1{
+    margin-bottom:100px;
+  }
+}
+
+@media all and (max-width: 670px) {
+      .four-text-2{
+          padding-top:100px;
+      }
+
+      .five-text-2{
+          padding-top:100px;
+      }
+
+      .eight-text-1{
+        padding-top:50px;
+      }
+
+      .twelve-wrapper h3{
+          margin-right:20px;
+      }
+
+      .twelve-wrapper a{
+        display:none;
+      }
+
+      .card{
+        margin-bottom:10px;
+      }
+
+      .thirteen-wrapper{
+        font-size:10px;
+        margin-left:-50px;
+      }
+
+      .thirteen-wrapper button{
+        font-weight:bold;
+        font-size:5px;
+      }
+
+      .footer-icon{
+        margin-right:50px;
+        margin-left:-200px;
+      }
+    }
+
+    @media all and (max-width: 500px){
+      .twelve-wrapper h3{
+        margin-left:-50px;
+      }
+  }
